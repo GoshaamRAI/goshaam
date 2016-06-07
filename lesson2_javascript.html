@@ -2,18 +2,22 @@
 <script type="text/javascript"> 
 
 var a = prompt('Введите первое число a:');
-var b = prompt('Введите первое число b:');
+//var b = prompt('Введите первое число b:');
 var max=0; 
 
 
 a=parseInt(a); 
-b=parseInt(b);
+//b=parseInt(b);
 
 
-if (a>b) {max=a;}
-   	else {max=b;}
+if (a>0) {alert('положительное');}
+   	else { 
 
-alert(max); 
+   		if (a==0)  alert('нуль');
+   		else alert('отрицательное');
+}
+
+//alert(max); 
 
 /* несколько строк в коммент 
 // коммент одна строка
