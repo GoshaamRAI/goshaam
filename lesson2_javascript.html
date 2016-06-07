@@ -2,36 +2,20 @@
 <script type="text/javascript"> 
 
 
-
-
-
 var a = prompt('Введите первое число a');
-//var b = prompt('Введите первое число b:');
+var b = prompt('Введите первое число b:');
+var max=0; 
+
 
 a=parseInt(a); 
-//b=parseInt(b);
-
-//var c=a+b;
-//alert('Сумма двух чисел :' + c); //вывод на экран результат
+b=parseInt(b);
 
 
-//var c=a*b
-//alert('Произведение двух чисел :' + c);
-
-
-//c=(a+b)/2;
-//alert('Среднее арифметическое двух чисел :' + c);
-
-c=a*a;
-alert('Квадрат числа  ' + a +' = ' + c);
-
-
-c=a+1
-alert('Увеличиваем число на единицу  ' + a +' = ' + c);
-
-
-c=c*c
-alert('Квадрат увеличенного числа  ' + a +' + 1 =' + c);
+if (a>b)  {max=a;
+}
+	else {max=b;
+	}
+alert(max); 
 
 
 </script>
